@@ -190,7 +190,7 @@ SoftwareSerial
 | 4 PROCESS_MESSAGE    | pause interval == 0, reset_state()               | 0 INIT                        |  
 | 4 PROCESS_MESSAGE    | pause interval != 0, reset_state()               | 1 STANDBY                     |  
 | 1 STANDBY            | standby time over, reset_state()                 | 0 INIT                        |  
-|______________________|__________________________________________________|_______________________________|
+
 
 Remark: reset_state() calls init_state() which results in 2 WAIT_FOR_START_SEQ; state INIT is only used during initialisation;
 
