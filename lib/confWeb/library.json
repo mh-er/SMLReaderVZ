@@ -1,0 +1,27 @@
+{
+  "name": "confWeb",
+  "keywords": "confWeb, esp8266, Wifi, server",
+  "description": "Library to build configurable web interfaces using an Async Web Server.",
+  "authors":
+  [
+    {
+      "name": "Manfred Herbert",
+      "email": "mh.er@arcor.de",
+      "maintainer": true
+    }
+  ],
+  "version": "1.0.0",
+  "frameworks": "arduino",
+  "platforms": "espressif",
+  "dependencies":
+  [
+    {
+      "name": "ESP Async WebServer",
+      "version": "1.2.3"
+    },
+    {
+      "name": "ArduinoJson",
+      "version": "6.20.0"
+    }
+  ]
+}
