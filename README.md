@@ -67,7 +67,7 @@ To login into configuration, provide the user *admin* and the configured AP *pas
 The configuration page provides two sections:
 - System Configuration: WiFi AP/STA names and passwords
 - VZ Settings: volkszaehler server name (or IP), volkszaehler middleware (e.g. middleware.php), uuid of selected data channels (including a channel for test data and a hearbeat channel) and a timezone offset.  
-You can switch-off transmission of data by using "null" as uuid (configurable by VZ_UUID_NO_SEND in config.h)
+You can switch-off transmission of data by using "null" as uuid (configurable by VZ_UUID_NO_SEND in config.h)  
 Note: SMLReaderVZ will send data with standard UNIX epochtime (ms) timestamps (ignoring timezone offset).
 
 <img src="./doc/img/configUI.png" alt="Layout"/>
