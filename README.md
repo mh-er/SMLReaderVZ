@@ -34,6 +34,8 @@ The hardware layout follows [3], connection PINs are defined in *config.h*.
 
 <img src="./doc/img/SMLreaderLayout.png" alt="Layout"  style="height: 423px; width:650px;" />
 
+## Dash Board
+<img src="./docs/img/SMLReaderVZ-DashBoard.png" alt="Dash Board"  style="height: 423px; width:650px;" />
 
 ## Configuration
 
